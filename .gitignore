@@ -1,0 +1,12 @@
+# Virtual environment
+/ragvenv
+
+# Specificity of poetry installation
+pyproject.toml
+
+# Python cache files
+__pycache__/
+
+# Draft files
+memo.txt
+demo.py
