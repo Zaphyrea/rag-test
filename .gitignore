@@ -7,6 +7,9 @@ pyproject.toml
 # Python cache files
 __pycache__/
 
+# Sensitive information
+.env
+
 # Draft files
 memo.txt
 demo.py 

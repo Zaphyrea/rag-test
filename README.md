@@ -60,7 +60,7 @@ The dataset is loaded from a text file using the [`load_dataset`](rag/dataset_lo
 ```python
 from rag.dataset_loader import load_dataset
 
-dataset = load_dataset('rag/data/fruit-trees.txt')
+dataset = load_dataset('rag/data/plants.txt')
 ```
 
 ### 4. Chunking and Embedding
@@ -116,15 +116,23 @@ python app.py
 ├── rag
 │   ├── chunks.py
 │   ├── data
-│   │   └── fruit-trees.txt
+│   │   └── plants.txt
 │   ├── dataset_loader.py
 │   ├── embeddings.py
-│   ├── __init.__py
+│   ├── __init__.py
 │   ├── llm.py
 │   ├── prompt.py
 │   ├── retrieval.py
 │   └── vectors.py
-└── README.md
+├── README.md
+└── tests
+    ├── conftest.py
+    ├── test_chunks.py
+    ├── test_dataset_loader.py
+    ├── test_embeddings.py
+    ├── test_llm.py
+    ├── test_prompt.py
+    └── test_retrieval.py
 ```
 
 

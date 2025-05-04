@@ -5,7 +5,7 @@ from rag.prompt import generate_prompt
 from rag.llm import chat_with_llm
 
 # Load the dataset
-dataset = load_dataset('rag/data/fruit-trees.txt')
+dataset = load_dataset('rag/data/plants.txt')
 
 # Add chunks to the database
 for i, chunk in enumerate(dataset):
