@@ -108,6 +108,7 @@ python app.py
 ```
 
 ## Project architecture
+```
 .
 ├── app.py
 ├── poetry.lock
@@ -124,6 +125,7 @@ python app.py
 │   ├── retrieval.py
 │   └── vectors.py
 └── README.md
+```
 
 
 ## REFERENCES
